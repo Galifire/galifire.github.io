@@ -1,0 +1,72 @@
+body {
+    text-align: justify;
+    height: 29.7cm;
+    width: 21cm;
+    text-align: justify;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+
+
+nav{
+    float: none;
+    text-align: center;
+    width: 100%;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    float:left;
+    width: 16%;
+    position: relative;
+}
+
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a{
+    display: block;
+    text-decoration:white;
+    color: rgb(0, 0, 127);
+    border-color: black;
+    border-bottom: 2.5px solid;
+    padding: 5px;
+}
+
+nav a:hover {
+    color: rgb(0, 119, 255);
+}
+
+a {
+    color:rgb(0, 0, 127);
+}
+
+a:hover {
+    color: rgb(0, 119, 255);
+}
+
+div {
+    margin-top: 50px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.send {
+    text-align: right;
+}
+
+footer {
+    text-align: justify;
+    align-items: justify;
+}
