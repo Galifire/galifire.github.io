@@ -1,4 +1,38 @@
-<?php include './header.html' ?>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.7.6/dist/css/uikit.min.css" />
+
+</head>
+
+<body>
+        <header>
+          <nav class="uk-navbar">
+              <div class="uk-navbar-center">
+                <ul class="uk-navbar-nav">
+                    <li>
+                      <a href="index.php">Accueil</a>
+                    </li>
+                    <li>
+                      <a href="skills.php">Compétences</a>
+                    </li>
+                    <li>
+                      <a href="bts.php">BTS SIO</a>
+                    </li>
+                    <li>
+                      <a href="stage.php">Stage</a>
+                    </li>
+                    <li>
+                      <a href="veille.php">Veille</a>
+                    </li>
+                    <li>
+                      <a href="contact.php">Contact</a>
+                    </li>
+                </ul>
+              </div>
+        </nav>
+    </header>
 
   <div class="home">
     <h1>Raphaël DUMAS - Présentation</h1>
