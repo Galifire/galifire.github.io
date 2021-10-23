@@ -1,36 +1,4 @@
-</html><!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <link href="index.css" rel="stylesheet" type="text/css">
-    <title>Raphaël DUMAS - Accueil</title>
-</head>
-<body>
-  <nav>
-    <ul>
-        <li>
-          <a href="index.html">Accueil</a>
-        </li>
-        <li>
-          <a href="skills.html">Compétences</a>
-        </li>
-        <li>
-          <a href="bts.html">BTS SIO</a>
-        </li>
-        <li>
-          <a href="stage.html">Stage</a>
-        </li>
-        <li>
-          <a href="veille.html">Veille</a>
-        </li>
-        <li>
-          <a href="contact.html">Contact</a>
-        </li>
-    </ul>
-  </nav>
+<?php include './header.html' ?>
   <div class="veille-tech">
     <div class="pres">
       La veille technologique correspond à la surveillance que l’entreprise consacre à son environnement technologique. 
