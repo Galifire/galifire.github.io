@@ -1,54 +1,104 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <!-- UIkit CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.7.6/dist/css/uikit.min.css" />
-    <link rel="stylesheet" href="./index.css"/>
-</head>
+  <head>
+    <!-- CSS only -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+      <link rel="stylesheet" href="./index.css" />
+  </head>
 
 <body>
-        <header>
-          <nav class="uk-navbar">
-              <div class="uk-navbar-center">
-                <ul class="uk-navbar-nav">
-                    <li>
-                      <a href="index.html">Accueil</a>
-                    </li>
-                    <li>
-                      <a href="skills.html">Compétences</a>
-                    </li>
-                    <li>
-                      <a href="bts.html">BTS SIO</a>
-                    </li>
-                    <li>
-                      <a href="stage.html">Stage</a>
-                    </li>
-                    <li>
-                      <a href="veille.html">Veille</a>
-                    </li>
-                    <li>
-                      <a href="contact.html">Contact</a>
-                    </li>
-                </ul>
-              </div>
-        </nav>
-    </header>
-  <div class="firstyear">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <div class="navbar-collapse collapse" id="navbarColor01">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="skills.html">Compétences</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="bts.html">Le BTS SIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="stage.html">Stages</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="veille.html">Veilles</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
     <div class="pres">
-      Dans le cadre de notre formation en BTS SIO, il nous est demandé au cours des deux années de réaliser un stage, pour un minimum
-      de trois semaines en entreprise, pour nous faire découvrir le monde du travail et de l'entreprise.
-      Ainsi, du 31 Mai au 2 Juillet 2021, j'ai pu réaliser un stage au sein d'une entreprise, du nom de
-       <a href="https://www.santeacademie.com/" target="_blank">Santé Académie</a>
+      <h3>Présentation</h3>
+      Dans le cadre de notre formation en BTS SIO, il nous est demandé au cours des deux années de réaliser un stage.<br>
+      Au total des 2 années, il nous est requis un minimum de 3 semaines en entreprise pour pouvoir valider le diplômes.<br>
+      L'objectif principal est donc de nous préparer d'ores et déjà au monde du travail et de l'entreprise. 
+      Cela permet également de nous apporter une grande expérience, confirmer nos compétences, acquérir certaines méthodologies...<br>
+      Sur les 2 années, j'ai eu la chance de pouvoir avoir un stage sur chacune d'elles, cumulant au total 13 semaines en entreprise :
+      5 semaines en 1e année, 8 en seconde.
     </div>
-    <div class="content">
-      <a href="./assets/rapport_stage_raphael_dumas.pdf" target="_blank">
-        <button type="button" class="uk-button uk-button-secondary">Mon Rapport</button>
+    
+    <br>
+
+    <div class="firstyear">
+      <h4>Stage de 1e Année</h4>
+      J'ai donc pu effectuer mon stage de première année pendant 5 semaines du 31 Mai 2021 au 02 Juillet 2021 au sein de l'entreprise Santé Académie.
+      Cette entreprise s'adresse à tous les professionels de santé (Médecins, Pharmaciens, Infirmiers) de suivre des formations dans leur domaine.<br>
+      J'ai eu pour projets de réaliser notamment des exports de données sous format excel, ou JSON.
+      <br> <br>
+      <a href="https://www.santeacademie.com/" target="_blank">
+        <button class="btn btn-outline-info">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right-square" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm5.854 8.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707l-4.096 4.096z"/>
+          </svg>
+          Découvrez leur site
+        </button>
       </a>
-    </body>    
-    <footer>
-    <!-- UIkit JS -->
-    <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.6/dist/js/uikit.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.6/dist/js/uikit-icons.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    </footer>
+      <br>
+      <div class="content">
+        <embed src="./assets/rapport_stage_1_raphael_dumas.pdf" type="application/pdf" width="100%" height="600px" /><br/>
+        <a href="./assets/rapport_stage_1_raphael_dumas.pdf" target="_blank">
+          <button type="button" class="btn btn-outline-dark">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pen" viewBox="0 0 16 16">
+              <path d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001zm-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708l-1.585-1.585z"/>
+            </svg>
+            Rapport de Stage de 1e année
+          </button>
+        </a>
+      </div>
+    </div>
+    <br>
+    <div class="secondyear">
+      <h4>Stage de 2e Année</h4>
+      Mon second stage au cours de ma formation, qui se déroulera pendant 8 semaines du 14 Février 2022 au 8 Avril 2022, sera effectué au sein de l'entreprise Wizaplace.
+      Cette entreprise est une fournisseuse de marketplace pour différents clients
+      <br><br>
+      <a href="https://www.wizaplace.com/" target="_blank">
+        <button class="btn btn-outline-info">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right-square" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm5.854 8.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707l-4.096 4.096z"/>
+          </svg>
+          Vers Wizaplace
+        </button>
+      </a>
+      <br>
+      <div class="content">
+        <!--embed src="./assets/rapport_stage_2_raphael_dumas.pdf" type="application/pdf" width="100%" height="600px" /><br/>
+        <a href="./assets/rapport_stage_2_raphael_dumas.pdf" target="_blank">
+          <button type="button" class="btn btn-outline-dark">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pen" viewBox="0 0 16 16">
+              <path d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001zm-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708l-1.585-1.585z"/>
+            </svg>
+            Rapport de Stage de 2e année
+          </button>
+        </a-->
+      </div>
+    </div>
+    
+  </body>    
 </html>
