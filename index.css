@@ -4,7 +4,6 @@ html {
 
 body {
     text-align: justify;
-    height: 29.7cm;
     width: 21cm;
     text-align: justify;
     margin-top: 1%;
@@ -16,6 +15,19 @@ body {
 
 div {
     margin-top: 10px;
+}
+
+footer {
+    margin-top: 30px;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.links {
+    text-align: center;
+    margin: 0;
 }
 
 .i {
