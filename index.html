@@ -8,32 +8,26 @@
 </head>
 
 <body>
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid">
-        <div class="navbar-collapse collapse" id="navbarColor01">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link"href="skills.html">Compétences</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="bts.html">Le BTS SIO</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="stage.html">Stages</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="veille.html">Veilles</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header>
+  
+  <div class="container">
 
+    <header class="p-3 bg-dark d-flex justify-content-center py-3">
+
+      <ul class="nav">
+
+        <li class="nav-item"><a href="./index.html" class="nav-link active text-white" aria-current="page">Accueil</a></li>
+        <li class="nav-item"><a href="./skills.html" class="nav-link text-white">Mes Compétences</a></li>
+        <li class="nav-item"><a href="./bts.html" class="nav-link text-white">Le BTS SIO</a></li>
+        <li class="nav-item"><a href="./stage.html" class="nav-link text-white">Mes Stages</a></li>
+        <li class="nav-item"><a href="./veille.html" class="nav-link text-white">Veille Technologique</a></li>
+
+      </ul>
+
+    </header>
+
+  </div>
+
+  <br>
   <div class="home">
     <h1>Raphaël DUMAS - Présentation</h1>
     <div class="history">
@@ -46,7 +40,12 @@
 
     <div class="cursus">
       <ul> 
-        <h3>Cursus Scolaire :</h3>
+        <h3>
+          <span class="school" style="color: rgb(124, 8, 0)">
+            <i class="fas fa-school"></i>
+          </span>
+          Cursus Scolaire :
+        </h3>
         <li>
           BTS SIO - Institution des Chartreux (2020-2022)
         </li>
@@ -55,7 +54,12 @@
         </li>
       </ul>
       <ul>
-        <h3>Diplômes :</h3>
+        <h3>
+          <span class="diplomes" style="color: rgb(33, 0, 110)">
+            <i class="fas fa-graduation-cap"></i>
+          </span>
+          Diplômes :
+        </h3>
         <li>
           Baccalauréat Scientifique, Option ISN (Informatique & Sciences du Numérique) - 2020
         </li>
@@ -63,9 +67,18 @@
           Cambridge Test Certificate - Niveau B2 - 2020
         </li>
       </ul>
+      
     </div>
 
-    <div class="container">
+    <div class="moi">
+      <ul>
+        <h3>
+        <span class="cv" style="color: rgb(230, 0, 0);">
+          <i class="fas fa-file-pdf"></i>
+        </span>
+        Mon CV :</h3>
+      </ul>
+      
       <embed src="./assets/cv_raphael_dumas.pdf" type="application/pdf" width="100%" height="600px" /><br/>
       <div class="i">
         Si l'affichage ne fonctionne pas, cliquez sur ce bouton :
@@ -83,17 +96,17 @@
 <footer>
   <div class="links">
 
-    <a href="https://www.linkedin.com/in/rapha%C3%ABl-dumas-2a3bb8204"><button type="button" class="logo">  
+    <a href="https://www.linkedin.com/in/rapha%C3%ABl-dumas-2a3bb8204" target="_blank"><button type="button" class="logo">  
         <span class="linkedin" style="color: #0051ff;">
           <i class="fab fa-linkedin fa-3x"></i>
         </span></button></a>
 
-    <a href="https://github.com/Galifire"><button type="button" class="logo">
+    <a href="https://github.com/Galifire" target="_blank"><button type="button" class="logo">
         <span class="github" style="color: #2c2c2c;">
           <i class="fab fa-github-square fa-3x"></i>
         </span></button></a>
     
-    <a href="mailto:raphael.dumas01@gmail.com"><button type="button" class="logo">
+    <a href="mailto:raphael.dumas01@gmail.com" target="_blank"><button type="button" class="logo">
       <span class="email" style="color: rgb(255, 44, 44)">
         <i class="far fa-envelope fa-3x"></i>
       </span></button></a>
@@ -101,7 +114,10 @@
   </div>
 
   <div class="copyright">
-  © Raphaël Dumas | Tous droits réservés
+  <span class="copyright">
+    <i class="far fa-copyright"></i>
+  </span>
+    Raphaël Dumas | Tous droits réservés
   </div>
 
 </footer>

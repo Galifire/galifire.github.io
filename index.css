@@ -4,8 +4,6 @@ html {
 
 body {
     text-align: justify;
-    width: 21cm;
-    text-align: justify;
     margin-top: 1%;
     margin-left: 25%;
     margin-right: 25%;
@@ -31,10 +29,6 @@ h1 {
     text-align: center;
 }
 
-nav {
-    align-items: center;
-    text-align: center;
-}
 
 footer {
     margin-top: 30px;
